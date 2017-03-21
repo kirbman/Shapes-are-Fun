@@ -7,8 +7,11 @@ package funwithshapes;
 
 /**
  *
- * @author Logan
+ * @author Cody Kirby
  */
 public class VolumeOfSphere {
-    
+    public double calcVolSphere(double radius){
+        double volume;
+        return  volume = (4.0 / 3) * Math.PI * Math.pow(radius, 3);
+    }
 }
